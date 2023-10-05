@@ -1,34 +1,35 @@
 ﻿User,Id,Target,Screen_Id,Parent,Grant
-customer user,1,module,analytics-comp,null,Read
-customer user,3,component,analytics-comp,analytics,Read
-customer user,3,component,playbook-applied-pie-chart-comp,playbook-applied-analytics-comp,Read
-customer user,3,component,playbook-applied-topic-chart-comp,playbook-applied-analytics-comp,Read
-customer user,3,component,document-processing-time-comp,analytics-comp,Read
-customer user,3,component,edit-activity-comp,analytics-comp,Read
-customer user,6,module,account-management-comp,null,Read
-customer user,8,component,activation-comp,account-management-comp,Write
-customer user,9,component,delighted-survey-component,account-management-comp,Write
-customer user,10,component,forgot-password-comp,account-management-comp,Write
-customer user,11,component,password-comp,account-management-comp,Write
-customer user,12,component,username-comp,account-management-comp,Write
-customer user,13,component,login-comp,account-management-comp,Write
-customer user,14,component,reset-password-comp,account-management-comp,Write
-customer user,22,module,dashboard-comp,null,Read
-customer user,24,module,home-comp,null,Read
-customer user,25,component,change-password-comp,home-comp,Write
-customer user,26,component,edit-profile-comp,home-comp,Write
-customer user,27,component,give-feedback-comp,home-comp,Write
-customer user,28,module,customer-dashboard-comp,dashboard-comp,Read
-customer user,30,component,document-upload-history-comp,customer-dashboard-comp,Read
-customer user,31,component,last-uploaded-document-comp,customer-dashboard-comp,Read
-customer user,32,component,new-document-upload-comp,customer-dashboard-comp,Write
-customer user,34,component,document-stats-comp,customer-dashboard-comp,Read
-customer user,35,module,pe-dashboard-comp,dashboard-comp,Read
-customer user,37,component,doc-status-metrics-comp,pe-dashboard-comp,Read
-customer user,38,component,document-upload-negotiation-history-comp,pe-dashboard-comp,Read
-customer user,39,component,negotiation-timeline-comp,pe-dashboard-comp,Read
-customer user,40,component,new-document-upload-intake-comp,pe-dashboard-comp,Write
+user,1,module,analytics-comp,null,Read
+user,3,component,analytics-comp,analytics,Read
+user,3,component,playbook-applied-pie-chart-comp,playbook-applied-analytics-comp,Read
+user,3,component,playbook-applied-topic-chart-comp,playbook-applied-analytics-comp,Read
+user,3,component,document-processing-time-comp,analytics-comp,Read
+user,3,component,edit-activity-comp,analytics-comp,Read
+user,6,module,account-management-comp,null,Read
+user,8,component,activation-comp,account-management-comp,Write
+user,9,component,delighted-survey-component,account-management-comp,Write
+user,10,component,forgot-password-comp,account-management-comp,Write
+user,11,component,password-comp,account-management-comp,Write
+user,12,component,username-comp,account-management-comp,Write
+user,13,component,login-comp,account-management-comp,Write
+user,14,component,reset-password-comp,account-management-comp,Write
+user,22,module,dashboard-comp,null,Read
+user,24,module,home-comp,null,Read
+user,25,component,change-password-comp,home-comp,Write
+user,26,component,edit-profile-comp,home-comp,Write
+user,27,component,give-feedback-comp,home-comp,Write
+user,28,module,customer-dashboard-comp,dashboard-comp,Read
+user,30,component,document-upload-history-comp,customer-dashboard-comp,Read
+user,31,component,last-uploaded-document-comp,customer-dashboard-comp,Read
+user,32,component,new-document-upload-comp,customer-dashboard-comp,Write
+user,34,component,document-stats-comp,customer-dashboard-comp,Read
+user,35,module,pe-dashboard-comp,dashboard-comp,Read
+user,37,component,doc-status-metrics-comp,pe-dashboard-comp,Read
+user,38,component,document-upload-negotiation-history-comp,pe-dashboard-comp,Read
+user,39,component,negotiation-timeline-comp,pe-dashboard-comp,Read
+user,40,component,new-document-upload-intake-comp,pe-dashboard-comp,Write
 contract reviewer,61,module,action-logs-comp,null,Write
+contract reviewer,61,module,dashboard-comp,null,Read
 contract reviewer,63,module,account-management-comp,null,Read
 contract reviewer,65,component,activation-comp,account-management-comp,Write
 contract reviewer,66,component,delighted-survey-component,account-management-comp,Write
@@ -88,6 +89,7 @@ platform admin,199,component,edit-profile-comp,home-comp,Write
 platform admin,200,component,give-feedback-comp,home-comp,Write
 platform admin,201,module,customer-dashboard-comp,dashboard-comp,Read
 platform admin,203,component,document-upload-history-comp,customer-dashboard-comp,Read
+platform admin,203,module,document-upload-history-comp,null,Read
 platform admin,204,component,last-uploaded-document-comp,customer-dashboard-comp,Read
 platform admin,205,component,new-document-upload-comp,customer-dashboard-comp,Write
 platform admin,207,component,document-stats-comp,customer-dashboard-comp,Read
@@ -105,32 +107,43 @@ platform admin,226,module,user-management-comp,null,Read
 platform admin,228,component,user-add-edit-comp,user-management-comp,Write
 platform admin,229,component,user-delete-comp,user-management-comp,Write
 platform admin,230,component,user-list-comp,user-management-comp,Write
-admin,115,module,analytics-comp,null,Read
-admin,116,component,playbook-applied-analytics-comp,analytics-comp,Read
-admin,117,component,playbook-applied-pie-chart-comp,playbook-applied-analytics-comp,Read
-admin,117,component,playbook-applied-topic-chart-comp,playbook-applied-analytics-comp,Read
-admin,117,component,document-processing-time-comp,analytics-comp,Read
-admin,117,component,edit-activity-comp,analytics-comp,Read
-admin,120,module,account-management-comp,null,Write
-admin,121,component,activation-comp,account-management-comp,Write
-admin,122,component,delighted-survey-component,account-management-comp,Write
-admin,123,component,forgot-password-comp,account-management-comp,Write
-admin,124,component,password-comp,account-management-comp,Write
-admin,125,component,username-comp,account-management-comp,Write
-admin,126,component,login-comp,account-management-comp,Write
-admin,127,component,reset-password-comp,account-management-comp,Write
-admin,138,module,dashboard-comp,null,Read
-admin,140,module,home-comp,null,Read
-admin,141,component,change-password-comp,home-comp,Write
-admin,142,component,edit-profile-comp,home-comp,Write
-admin,143,component,give-feedback-comp,home-comp,Write
-admin,144,module,customer-dashboard-comp,dashboard-comp,Read
-admin,146,component,document-upload-history-comp,customer-dashboard-comp,Read
-admin,147,component,last-uploaded-document-comp,customer-dashboard-comp,Read
-admin,148,component,new-document-upload-comp,customer-dashboard-comp,Write
-admin,150,component,document-stats-comp,customer-dashboard-comp,Read
-admin,158,module,pe-dashboard-comp,dashboard-comp,N/A
-admin,169,module,user-management-comp,null,Write
-admin,171,component,user-add-edit-comp,user-management-comp,Write
-admin,172,component,user-delete-comp,user-management-comp,Write
-admin,173,component,user-list-comp,user-management-comp,Write
+admin,177,module,action-logs-comp,null,Read
+admin,179,module,account-management-comp,null,Write
+admin,181,component,activation-comp,account-management-comp,Write
+admin,182,component,delighted-survey-component,account-management-comp,Write
+admin,183,component,forgot-password-comp,account-management-comp,Write
+admin,184,component,password-comp,account-management-comp,Write
+admin,185,component,username-comp,account-management-comp,Write
+admin,186,component,login-comp,account-management-comp,Write
+admin,187,component,reset-password-comp,account-management-comp,Write
+admin,188,module,customer-onboarding-comp,null,Write
+admin,190,component,add-users-comp,customer-onboarding-comp,Write
+admin,191,component,create-customer-comp,customer-onboarding-comp,Write
+admin,192,component,customize-playbook-comp,customer-onboarding-comp,Write
+admin,193,component,onboarding-confirmation-comp,customer-onboarding-comp,Write
+admin,194,component,select-subscription-comp,customer-onboarding-comp,Write
+admin,195,module,dashboard-comp,null,Read
+admin,197,module,home-comp,null,Read
+admin,198,component,change-password-comp,home-comp,Write
+admin,199,component,edit-profile-comp,home-comp,Write
+admin,200,component,give-feedback-comp,home-comp,Write
+admin,201,module,customer-dashboard-comp,dashboard-comp,Read
+admin,203,component,document-upload-history-comp,customer-dashboard-comp,Read
+admin,203,module,document-upload-history-comp,null,Read
+admin,204,component,last-uploaded-document-comp,customer-dashboard-comp,Read
+admin,205,component,new-document-upload-comp,customer-dashboard-comp,Write
+admin,207,component,document-stats-comp,customer-dashboard-comp,Read
+admin,215,module,platform-admin-dashboard-comp,dashboard-comp,Read
+admin,217,component,batch-detail-comp,platform-admin-dashboard-comp,Read
+admin,218,component,uploaded-batch-list-comp,platform-admin-dashboard-comp,Read
+admin,219,component,batch-delete-comp,platform-admin-dashboard-comp,Write
+admin,220,component,new-document-batch-upload-comp,platform-admin-dashboard-comp,Write
+admin,221,component,platform-document-upload-history-comp,platform-admin-dashboard-comp,Read
+admin,222,component,update-batch-comp,platform-admin-dashboard-comp,Write
+admin,223,component,upload-batch-comp,platform-admin-dashboard-comp,Write
+admin,224,component,document-stats-comp,platform-admin-dashboard-comp,Read
+admin,225,component,uploaded-batch-summary-comp,platform-admin-dashboard-comp,Read
+admin,226,module,user-management-comp,null,Read
+admin,228,component,user-add-edit-comp,user-management-comp,Write
+admin,229,component,user-delete-comp,user-management-comp,Write
+admin,230,component,user-list-comp,user-management-comp,Write
