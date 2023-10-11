@@ -19,6 +19,7 @@ user,17,component,change-password-comp,home-comp,Write
 user,18,component,edit-profile-comp,home-comp,Write
 user,19,component,give-feedback-comp,home-comp,Write
 user,20,module,customer-dashboard-comp,dashboard-comp,Read
+user,21,module,document-upload-history-comp,null,Write
 user,21,component,document-upload-history-comp,customer-dashboard-comp,Read
 user,22,component,last-uploaded-document-comp,customer-dashboard-comp,Read
 user,23,component,new-document-upload-comp,customer-dashboard-comp,Write
