@@ -154,3 +154,4 @@ admin,150,component,user-add-edit-comp,user-management-comp,Write
 admin,151,component,user-delete-comp,user-management-comp,Write
 admin,152,component,user-list-comp,user-management-comp,Write
 admin,153,module,customer-admin-component,null,Write
+admin,154,module,engagement-analysis-comp,null,Write
