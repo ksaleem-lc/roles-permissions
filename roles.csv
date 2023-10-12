@@ -60,6 +60,7 @@ customer admin,58,component,change-password-comp,home-comp,Write
 customer admin,59,component,edit-profile-comp,home-comp,Write
 customer admin,60,component,give-feedback-comp,home-comp,Write
 customer admin,61,module,customer-dashboard-comp,dashboard-comp,Read
+customer admin,62,module,document-upload-history-comp,null,Write
 customer admin,62,component,document-upload-history-comp,customer-dashboard-comp,Read
 customer admin,63,component,last-uploaded-document-comp,customer-dashboard-comp,Read
 customer admin,64,component,new-document-upload-comp,customer-dashboard-comp,Write
@@ -98,47 +99,41 @@ platform admin,96,component,update-batch-comp,platform-admin-dashboard-comp,Writ
 platform admin,97,component,upload-batch-comp,platform-admin-dashboard-comp,Write
 platform admin,98,component,document-stats-comp,platform-admin-dashboard-comp,Read
 platform admin,99,component,uploaded-batch-summary-comp,platform-admin-dashboard-comp,Read
-platform admin,100,module,user-management-comp,null,Read
-platform admin,101,component,user-add-edit-comp,user-management-comp,Write
-platform admin,102,component,user-delete-comp,user-management-comp,Write
-platform admin,103,component,user-list-comp,user-management-comp,Write
-platform admin,104,module,customer-admin-component,null,Write
-platform admin,105,module,document-library-comp,null,Write
-platform admin,106,module,document-admin-comp,null,Write
-platform admin,107,module,document-tag-comp,null,Write
-admin,108,module,action-logs-comp,null,Read
-admin,109,module,account-management-comp,null,Write
-admin,110,component,activation-comp,account-management-comp,Write
-admin,111,component,delighted-survey-component,account-management-comp,Write
-admin,112,component,forgot-password-comp,account-management-comp,Write
-admin,113,component,password-comp,account-management-comp,Write
-admin,114,component,username-comp,account-management-comp,Write
-admin,115,component,login-comp,account-management-comp,Write
-admin,116,component,reset-password-comp,account-management-comp,Write
-admin,117,module,customer-onboarding-comp,null,Write
-admin,118,component,add-users-comp,customer-onboarding-comp,Write
-admin,119,component,create-customer-comp,customer-onboarding-comp,Write
-admin,120,component,customize-playbook-comp,customer-onboarding-comp,Write
-admin,121,component,onboarding-confirmation-comp,customer-onboarding-comp,Write
-admin,122,component,select-subscription-comp,customer-onboarding-comp,Write
-admin,123,module,dashboard-comp,null,Read
-admin,124,module,home-comp,null,Read
-admin,125,component,change-password-comp,home-comp,Write
-admin,126,component,edit-profile-comp,home-comp,Write
-admin,127,component,give-feedback-comp,home-comp,Write
-admin,128,module,platform-admin-dashboard-comp,dashboard-comp,Read
-admin,129,component,batch-detail-comp,platform-admin-dashboard-comp,Read
-admin,130,component,uploaded-batch-list-comp,platform-admin-dashboard-comp,Read
-admin,131,component,batch-delete-comp,platform-admin-dashboard-comp,Write
-admin,132,component,new-document-batch-upload-comp,platform-admin-dashboard-comp,Write
-admin,133,component,platform-document-upload-history-comp,platform-admin-dashboard-comp,Read
-admin,134,component,update-batch-comp,platform-admin-dashboard-comp,Write
-admin,135,component,upload-batch-comp,platform-admin-dashboard-comp,Write
-admin,136,component,document-stats-comp,platform-admin-dashboard-comp,Read
-admin,137,component,uploaded-batch-summary-comp,platform-admin-dashboard-comp,Read
-admin,138,module,user-management-comp,null,Read
-admin,139,component,user-add-edit-comp,user-management-comp,Write
-admin,140,component,user-delete-comp,user-management-comp,Write
-admin,141,component,user-list-comp,user-management-comp,Write
-admin,142,module,customer-admin-component,null,Write
-admin,143,module,engagement-analysis-comp,null,Write
+platform admin,100,module,user-admin-comp,null,Read
+platform admin,101,module,customer-admin-component,null,Write
+platform admin,102,module,document-library-comp,null,Write
+platform admin,103,module,document-admin-comp,null,Write
+platform admin,104,module,document-tag-comp,null,Write
+admin,105,module,action-logs-comp,null,Read
+admin,106,module,account-management-comp,null,Write
+admin,107,component,activation-comp,account-management-comp,Write
+admin,108,component,delighted-survey-component,account-management-comp,Write
+admin,109,component,forgot-password-comp,account-management-comp,Write
+admin,110,component,password-comp,account-management-comp,Write
+admin,111,component,username-comp,account-management-comp,Write
+admin,112,component,login-comp,account-management-comp,Write
+admin,113,component,reset-password-comp,account-management-comp,Write
+admin,114,module,customer-onboarding-comp,null,Write
+admin,115,component,add-users-comp,customer-onboarding-comp,Write
+admin,116,component,create-customer-comp,customer-onboarding-comp,Write
+admin,117,component,customize-playbook-comp,customer-onboarding-comp,Write
+admin,118,component,onboarding-confirmation-comp,customer-onboarding-comp,Write
+admin,119,component,select-subscription-comp,customer-onboarding-comp,Write
+admin,120,module,dashboard-comp,null,Read
+admin,121,module,home-comp,null,Read
+admin,122,component,change-password-comp,home-comp,Write
+admin,123,component,edit-profile-comp,home-comp,Write
+admin,124,component,give-feedback-comp,home-comp,Write
+admin,125,module,platform-admin-dashboard-comp,dashboard-comp,Read
+admin,126,component,batch-detail-comp,platform-admin-dashboard-comp,Read
+admin,127,component,uploaded-batch-list-comp,platform-admin-dashboard-comp,Read
+admin,128,component,batch-delete-comp,platform-admin-dashboard-comp,Write
+admin,129,component,new-document-batch-upload-comp,platform-admin-dashboard-comp,Write
+admin,130,component,platform-document-upload-history-comp,platform-admin-dashboard-comp,Read
+admin,131,component,update-batch-comp,platform-admin-dashboard-comp,Write
+admin,132,component,upload-batch-comp,platform-admin-dashboard-comp,Write
+admin,133,component,document-stats-comp,platform-admin-dashboard-comp,Read
+admin,134,component,uploaded-batch-summary-comp,platform-admin-dashboard-comp,Read
+admin,135,module,user-admin-comp,null,Read
+admin,136,module,customer-admin-component,null,Write
+admin,137,module,engagement-analysis-comp,null,Write
