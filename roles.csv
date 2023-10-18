@@ -104,6 +104,8 @@ platform admin,101,module,customer-admin-component,null,Write
 platform admin,102,module,document-library-comp,null,Write
 platform admin,103,module,document-admin-comp,null,Write
 platform admin,104,module,document-tag-comp,null,Write
+platform admin,105,module,document-upload-history-comp,null,Write
+platform admin,106,module,document-library-component,null,Write
 admin,105,module,action-logs-admin-comp,null,Read
 admin,106,module,account-management-comp,null,Write
 admin,107,component,activation-comp,account-management-comp,Write
@@ -137,3 +139,5 @@ admin,134,component,uploaded-batch-summary-comp,platform-admin-dashboard-comp,Re
 admin,135,module,user-admin-comp,null,Read
 admin,136,module,customer-admin-component,null,Write
 admin,137,module,engagement-analysis-comp,null,Write
+admin,138,module,document-upload-history-comp,null,Write
+admin,139,module,document-library-component,null,Write
